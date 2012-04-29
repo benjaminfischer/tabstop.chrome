@@ -1,0 +1,11 @@
+{
+  "name": "Tab stop",
+  "version": "1.0",
+  "description": "Changes links forced to open in a new window to instead open in the current window.",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["inject.js"]
+    }
+  ]
+}
